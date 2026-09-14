@@ -6,6 +6,9 @@ Inspired by the paper: *Corrective Retrieval Augmented Generation* — Shi-Qi Ya
 
 This is a minimal, CLI-only version of the idea (no FastAPI, no React): it retrieves chunks from a FAISS index, uses an LLM to judge whether the retrieved context is correct, and falls back to a web search when it isn't.
 
+<img width="7533" height="4773" alt="image" src="https://github.com/user-attachments/assets/fec33ff6-76ae-4c05-bb4b-781392c2504a" />
+
+
 ## Run
 
 ```bash
