@@ -1,0 +1,5 @@
+.env
+documents
+refrence
+faiss_index
+.DS_Store
