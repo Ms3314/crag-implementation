@@ -9,6 +9,11 @@ This is a minimal, CLI-only version of the idea (no FastAPI, no React): it retri
 <img width="7533" height="4773" alt="image" src="https://github.com/user-attachments/assets/fec33ff6-76ae-4c05-bb4b-781392c2504a" />
 
 
+## LangGraph implementation 
+
+<img width="279" height="753" alt="image" src="https://github.com/user-attachments/assets/3b0d2ab4-b7d4-4689-ac2c-8c0200617993" />
+
+
 ## Run
 
 ```bash
