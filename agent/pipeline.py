@@ -24,7 +24,7 @@ def build_app(store: FAISS):
     g.add_node("refine", refine)
     g.add_node("generate", generate)
     g.add_node("eval_each_doc_node", eval_each_doc_node)
-    g.add_node("fail", fail)
+    # g.add_node("fail", fail)
     g.add_node("web_search", web_search)
     g.add_node("make_web_query_better", make_web_query_better)
 
@@ -36,6 +36,6 @@ def build_app(store: FAISS):
     g.add_edge("web_search", "refine")
     g.add_edge("refine", "generate")
     g.add_edge("generate", END)
-    # g.add_edge("ambiguous", END)
-    g.add_edge("fail", END)
+    # # g.add_edge("ambiguous", END)
+    # g.add_edge("fail", END)
     return g.compile()
